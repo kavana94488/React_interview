@@ -1,0 +1,8 @@
+.checkbox{
+    display: grid;
+    place-items: center;
+   
+}
+hr{
+    width: 100%;
+}
