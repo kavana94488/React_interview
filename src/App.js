@@ -5,6 +5,7 @@ import Pagination from "./Interview/Pagination";
 import Searchbar from "./Interview/Searchbar";
 import Chart from "./Interview/Chart";
 import PreviousValue from "./Interview/PreviousValue";
+import AddingUser from './Interview/AddingUser';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
           <Route element={<Searchbar />} path="/search" />
           <Route element={<Chart />} path="/chart" />
           <Route element={<PreviousValue />} path="/prev" />
+          <Route element={<AddingUser />} path="/adding" />
+
         </Routes>
       </BrowserRouter>
     </div>

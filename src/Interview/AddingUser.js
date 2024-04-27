@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./AddingUser.css"
 function AddingUser() {
   const [formData, setFormData] = useState({ user: [], value: "" });
 
