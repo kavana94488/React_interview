@@ -30,7 +30,7 @@ const Deleting = () => {
     //   console.log(ind)
         let result = change.filter((item,index)=>{
             console.log(item.id)
-            return index+1 !==ind
+            return index!==ind
         })
         setChange(result)
 
@@ -47,7 +47,7 @@ const Deleting = () => {
               <button
                 key={index}
                 onClick={() => {
-                  deleteHandler(index + 1);
+                  deleteHandler(index);
                 }}
               >
                 Delete
